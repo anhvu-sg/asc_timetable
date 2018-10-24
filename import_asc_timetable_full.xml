@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<timetable ascttversion="2019.6.3" importtype="database" options="export:idprefix:%CHRID,import:idprefix:%TEMPID,groupstype1,decimalseparatordot,lessonsincludeclasseswithoutstudents,handlestudentsafterlessons" defaultexport="1" displayname="aSc Timetables 2012 XML" displaycountries="">
+   <periods options="canadd,export:silent" columns="period,name,short,starttime,endtime">
+      <period name="0" short="0" period="0" starttime="7:10" endtime="7:55"/>
+      <period name="1" short="1" period="1" starttime="8:00" endtime="8:45"/>
+      <period name="2" short="2" period="2" starttime="9:00" endtime="9:45"/>
+      <period name="3" short="3" period="3" starttime="10:00" endtime="10:45"/>
+      <period name="4" short="4" period="4" starttime="11:00" endtime="11:45"/>
+      <period name="5" short="5" period="5" starttime="12:00" endtime="12:45"/>
+      <period name="6" short="6" period="6" starttime="13:00" endtime="13:45"/>
+      <period name="7" short="7" period="7" starttime="14:00" endtime="14:45"/>
+   </periods>
+   <daysdefs options="canadd,export:silent" columns="id,days,name,short">
+      <daysdef id="CA188424552D8F47" name="Any day" short="X" days="10000,01000,00100,00010,00001"/>
+      <daysdef id="13F8346A2C79C278" name="Every day" short="E" days="11111"/>
+      <daysdef id="80AF45E4D3BDCC7B" name="Monday" short="Mo" days="10000"/>
+      <daysdef id="1FF4BFB27CCBBC32" name="Tuesday" short="Tu" days="01000"/>
+      <daysdef id="BCD06FCF98C5EA3E" name="Wednesday" short="We" days="00100"/>
+      <daysdef id="341BB6449079FBC8" name="Thursday" short="Th" days="00010"/>
+      <daysdef id="0512DA4441B544EB" name="Friday" short="Fr" days="00001"/>
+   </daysdefs>
+   <weeksdefs options="canadd,export:silent" columns="id,weeks,name,short">
+      <weeksdef id="DE5486EEC0B1479C" name="All weeks" short="All" weeks="1"/>
+   </weeksdefs>
+   <termsdefs options="canadd,export:silent" columns="id,terms,name,short">
+      <termsdef id="3E0DF7616745127F" name="Whole year" short="YR" terms="1"/>
+   </termsdefs>
+   <subjects options="canadd,export:silent" columns="id,name,short,partner_id">
+      <subject id="9538CAB8DEA77BCA" name="Corespondence" short="COR" partner_id=""/>
+      <subject id="2E5EDD57F9F5A7BD" name="Adminstration" short="ADM" partner_id=""/>
+      <subject id="F47A977E1309458C" name="English" short="ENG" partner_id=""/>
+      <subject id="790332F9B8210ABE" name="Banking" short="BAN" partner_id=""/>
+      <subject id="3A993A0828E70D67" name="Biology" short="BIO" partner_id=""/>
+      <subject id="E0316EC3D06E8198" name="Math practice" short="MAP" partner_id=""/>
+      <subject id="BEB4A436EF626A64" name="Tax rules" short="TAX" partner_id=""/>
+      <subject id="EA2A15C7D5368105" name="History" short="HIS" partner_id=""/>
+      <subject id="78F7A6269458A8AF" name="Economy Practice 1" short="EP1" partner_id=""/>
+      <subject id="FCBC0499F1055C76" name="Economy Practice 2" short="EP2" partner_id=""/>
+      <subject id="BB119550FF75556F" name="Ethics" short="ETH" partner_id=""/>
+      <subject id="C8AB97D6A79FE435" name="Limited Company" short="LIC" partner_id=""/>
+      <subject id="F96ED8D843A5E3F1" name="French Language" short="FRL" partner_id=""/>
+      <subject id="DA755D69E831436E" name="Trade Geographie" short="TRG" partner_id=""/>
+      <subject id="3CEF3832E034F87C" name="Trade Statistics" short="TRS" partner_id=""/>
+      <subject id="8D44F6CC0D0B0994" name="Informatics" short="INF" partner_id=""/>
+      <subject id="1EA4C7B8D034CE8A" name="English conversation" short="ENC" partner_id=""/>
+      <subject id="9EF684C7C4B3BA7B" name="German Conversation" short="GRC" partner_id=""/>
+      <subject id="03E992C0072BCA49" name="Management" short="MNG" partner_id=""/>
+      <subject id="130D906A965DEA56" name="Marketing" short="MAR" partner_id=""/>
+      <subject id="34042D3F7964C629" name="Mathematics" short="MAT" partner_id=""/>
+      <subject id="B264BF9C85DD7584" name="Religious Study" short="RES" partner_id=""/>
+      <subject id="86339FAA79575A1C" name="National economy" short="NAE" partner_id=""/>
+      <subject id="BDC651C542F2ADA9" name="German language" short="GER" partner_id=""/>
+      <subject id="78605473A64F4193" name="Social study" short="SOC" partner_id=""/>
+      <subject id="0C74EFA46F7E2F6A" name="Company economics" short="COE" partner_id=""/>
+      <subject id="F4B8F6815C19816E" name="Law education" short="LAW" partner_id=""/>
+      <subject id="A0F5E156AE28CF4F" name="Russian Language" short="RUS" partner_id=""/>
+      <subject id="7F548AF2B341D841" name="Informatics practice" short="INP" partner_id=""/>
+      <subject id="CBD54306AFE1E1B1" name="Slovak Language" short="SLJ" partner_id=""/>
+      <subject id="1849373D1B97751F" name="Social communication" short="SCC" partner_id=""/>
+      <subject id="BC8B216B5331FACC" name="Physical Education" short="PE" partner_id=""/>
+      <subject id="3CD962A35C905F74" name="Simple accounting" short="SAC" partner_id=""/>
+      <subject id="894D56D9C845F2E2" name="Accounting" short="ACC" partner_id=""/>
+   </subjects>
+   <teachers options="canadd,export:silent" columns="id,name,short,gender,color,email,mobile,partner_id,firstname,lastname">
+      <teacher id="FC57148302A97A84" firstname="" lastname="Anita" name="Anita" short="An" gender="M" color="#FF0000" email="" mobile="" partner_id=""/>
+      <teacher id="0E5BDB4C1A0BF573" firstname="" lastname="Annie" name="Annie" short="Ai" gender="M" color="#00C0FF" email="" mobile="" partner_id=""/>
+      <teacher id="6DBF7C17C5E6B96D" firstname="" lastname="Beatrice" name="Beatrice" short="Be" gender="M" color="#800000" email="" mobile="" partner_id=""/>
+      <teacher id="D9F61541890F95E5" firstname="" lastname="Bonnie" name="Bonnie" short="Bo" gender="M" color="#00FF00" email="" mobile="" partner_id=""/>
+      <teacher id="D652B791AB689D3A" firstname="" lastname="Catharine" name="Catharine" short="Ca" gender="M" color="#008000" email="" mobile="" partner_id=""/>
+      <teacher id="6D8BC56AD418DDB6" firstname="" lastname="Cindy" name="Cindy" short="Ci" gender="M" color="#0000FF" email="" mobile="" partner_id=""/>
+      <teacher id="0E681F3FD1CCD261" firstname="" lastname="Peter" name="Peter" short="Pe" gender="M" color="#000080" email="" mobile="" partner_id=""/>
+      <teacher id="63D3C772F615B9AC" firstname="" lastname="Robert" name="Robert" short="Ro" gender="M" color="#FFFFFF" email="" mobile="" partner_id=""/>
+      <teacher id="3FE55B3E47FA5147" firstname="" lastname="Andrea" name="Andrea" short="Ad" gender="M" color="#808080" email="" mobile="" partner_id=""/>
+      <teacher id="2C7261B3DB332622" firstname="" lastname="AnneMarie" name="AnneMarie" short="Am" gender="M" color="#60FFC0" email="" mobile="" partner_id=""/>
+      <teacher id="B247088BDD5C2E66" firstname="" lastname="Candy" name="Candy" short="Cd" gender="M" color="#FFFF00" email="" mobile="" partner_id=""/>
+      <teacher id="FF1011E2D7EC2DEC" firstname="" lastname="Mandy" name="Mandy" short="Ma" gender="M" color="#FF00FF" email="" mobile="" partner_id=""/>
+      <teacher id="51CF73357F031BD6" firstname="" lastname="Gary" name="Gary" short="Ga" gender="M" color="#00FFFF" email="" mobile="" partner_id=""/>
+      <teacher id="49E227255D1E6BE6" firstname="" lastname="Elizabeth" name="Elizabeth" short="El" gender="M" color="#808000" email="" mobile="" partner_id=""/>
+      <teacher id="88AD35E985B362BE" firstname="" lastname="Monica" name="Monica" short="Mo" gender="M" color="#800080" email="" mobile="" partner_id=""/>
+      <teacher id="C419C5E72BDC3BDC" firstname="" lastname="John" name="John" short="Jo" gender="M" color="#FF8080" email="" mobile="" partner_id=""/>
+      <teacher id="DFB1EAC406963B59" firstname="" lastname="Jessie" name="Jessie" short="Je" gender="M" color="#80FF80" email="" mobile="" partner_id=""/>
+      <teacher id="C4CF7EAEAEDE0960" firstname="" lastname="Tampa" name="Tampa" short="Ta" gender="M" color="#1314FF" email="" mobile="" partner_id=""/>
+      <teacher id="E4C6ED7AB9509504" firstname="" lastname="Eleonore" name="Eleonore" short="Eo" gender="M" color="#8000FF" email="" mobile="" partner_id=""/>
+      <teacher id="C1F252D5F714AAAD" firstname="" lastname="Theodore" name="Theodore" short="Th" gender="M" color="#0080FF" email="" mobile="" partner_id=""/>
+      <teacher id="485DF2CD8C5A7487" firstname="" lastname="Thorsten" name="Thorsten" short="Tr" gender="M" color="#FF8000" email="" mobile="" partner_id=""/>
+      <teacher id="4E1B52799A912158" firstname="" lastname="Kirsten" name="Kirsten" short="Ki" gender="M" color="#00FF80" email="" mobile="" partner_id=""/>
+      <teacher id="8711A6F5CC66AE45" firstname="" lastname="Carsten" name="Carsten" short="Cr" gender="M" color="#FFC0C0" email="" mobile="" partner_id=""/>
+      <teacher id="0487DD63AB135D25" firstname="" lastname="Claudia" name="Claudia" short="Cl" gender="M" color="#FFC000" email="" mobile="" partner_id=""/>
+      <teacher id="F7616A1B2B740500" firstname="" lastname="Marylin" name="Marylin" short="Mr" gender="M" color="#C0FFFF" email="" mobile="" partner_id=""/>
+      <teacher id="4BEE072108E2EF5A" firstname="" lastname="Zack" name="Zack" short="Za" gender="M" color="#C0C000" email="" mobile="" partner_id=""/>
+      <teacher id="2D242EE55F120DCE" firstname="" lastname="Laura" name="Laura" short="La" gender="M" color="#80C0FF" email="" mobile="" partner_id=""/>
+      <teacher id="EE1DA48F77C8EC00" firstname="" lastname="Fred" name="Fred" short="Fr" gender="M" color="#00C0C8" email="" mobile="" partner_id=""/>
+      <teacher id="A717D1606AFB29D1" firstname="" lastname="Wendy" name="Wendy" short="We" gender="M" color="#00FFC0" email="" mobile="" partner_id=""/>
+      <teacher id="8DD01D8E077494C1" firstname="" lastname="Pauline" name="Pauline" short="Pa" gender="M" color="#6060C0" email="" mobile="" partner_id=""/>
+      <teacher id="1897CE3334A2E145" firstname="" lastname="Diego" name="Diego" short="Di" gender="M" color="#14C0C0" email="" mobile="" partner_id=""/>
+      <teacher id="FC59D23190709F8D" firstname="" lastname="Paulo" name="Paulo" short="Pu" gender="M" color="#14C000" email="" mobile="" partner_id=""/>
+      <teacher id="59C9C36091617E68" firstname="" lastname="Steve" name="Steve" short="St" gender="M" color="#14C030" email="" mobile="" partner_id=""/>
+      <teacher id="DF6F6BCF77156F63" firstname="" lastname="Doug" name="Doug" short="Do" gender="M" color="#C014FF" email="" mobile="" partner_id=""/>
+      <teacher id="FD890C76E3A1451A" firstname="" lastname="Larry" name="Larry" short="Lr" gender="M" color="#008080" email="" mobile="" partner_id=""/>
+      <teacher id="A386A275B7B307F1" firstname="" lastname="Chris" name="Chris" short="Ch" gender="M" color="#80C014" email="" mobile="" partner_id=""/>
+      <teacher id="FE3B21A31AEE234A" firstname="" lastname="Barbara" name="Barbara" short="Ba" gender="M" color="#0014C0" email="" mobile="" partner_id=""/>
+      <teacher id="7A3C2A4D85E47231" firstname="" lastname="Wera" name="Wera" short="We" gender="M" color="#6014C0" email="" mobile="" partner_id=""/>
+      <teacher id="C0EE099105DEBE01" firstname="" lastname="Richard" name="Richard" short="Ri" gender="M" color="#1414C0" email="" mobile="" partner_id=""/>
+      <teacher id="EAADE389D707EEC5" firstname="" lastname="Pierre" name="Pierre" short="Pi" gender="M" color="#C800C0" email="" mobile="" partner_id=""/>
+      <teacher id="359A1D10F2BB9B1F" firstname="" lastname="Ashley" name="Ashley" short="As" gender="M" color="#00C094" email="" mobile="" partner_id=""/>
+      <teacher id="7EEA5D019003E64E" firstname="" lastname="George" name="George" short="Ge" gender="M" color="#0013C8" email="" mobile="" partner_id=""/>
+      <teacher id="48C5E1760D2D4D3F" firstname="" lastname="Zigmund" name="Zigmund" short="Zi" gender="M" color="#135C00" email="" mobile="" partner_id=""/>
+      <teacher id="7AA58AA154A0D117" firstname="" lastname="Ariel" name="Ariel" short="Ar" gender="M" color="#805C14" email="" mobile="" partner_id=""/>
+   </teachers>
+   <classrooms options="canadd,export:silent" columns="id,name,short,capacity,partner_id">
+      <classroom id="035EA3BE1B38DB6C" name="Room Nr33" short="Nr33" capacity="*" partner_id=""/>
+      <classroom id="C3582C3FAAD280FF" name="Room Nr62" short="Nr62" capacity="*" partner_id=""/>
+      <classroom id="09BAB2AF1E189233" name="EKC  12" short="Nr12" capacity="*" partner_id=""/>
+      <classroom id="70CD25E566EB02C4" name="EKC 13" short="Nr13" capacity="*" partner_id=""/>
+      <classroom id="D6C752DF154F45BB" name="SVL" short="SVL" capacity="*" partner_id=""/>
+      <classroom id="D8667375A8150108" name="Room Nr57" short="Nr57" capacity="*" partner_id=""/>
+      <classroom id="A63831DF40EF45F6" name="ADK 31" short="Nr31" capacity="*" partner_id=""/>
+      <classroom id="463D65596B0A5193" name="ADK 32" short="Nr32" capacity="*" partner_id=""/>
+      <classroom id="AE293F601E7B5568" name="ADK Olivetti" short="OLI" capacity="*" partner_id=""/>
+      <classroom id="A8B3BC3F6EAFBA38" name="MAN 33" short="MAN" capacity="*" partner_id=""/>
+      <classroom id="8EDE3FCD7ABEA0C3" name="Room Nr44" short="Nr44" capacity="*" partner_id=""/>
+      <classroom id="9A4F286C04DD18DE" name="PE room" short="PE" capacity="*" partner_id=""/>
+      <classroom id="BCE8CBA81D6450F6" name="HALL" short="HL" capacity="*" partner_id=""/>
+      <classroom id="E86501D7AF5D8A86" name="1A" short="1A" capacity="*" partner_id=""/>
+      <classroom id="8B94460819CBF7E8" name="1B" short="1B" capacity="*" partner_id=""/>
+      <classroom id="533DFB531A0726FF" name="1C" short="1C" capacity="*" partner_id=""/>
+      <classroom id="6760456B12160D66" name="1D" short="1D" capacity="*" partner_id=""/>
+      <classroom id="F7208E1FAE268614" name="1E" short="1E" capacity="*" partner_id=""/>
+      <classroom id="547682A914F5499E" name="2A" short="2A" capacity="*" partner_id=""/>
+      <classroom id="667A1D1845250483" name="2B" short="2B" capacity="*" partner_id=""/>
+      <classroom id="6E2C67C252607386" name="2C" short="2C" capacity="*" partner_id=""/>
+      <classroom id="874D046F36B939D2" name="Workout room" short="WRK" capacity="*" partner_id=""/>
+      <classroom id="10F89695195594A2" name="2.D" short="2.D" capacity="*" partner_id=""/>
+      <classroom id="C697B1B709E23525" name="2.E" short="2.E" capacity="*" partner_id=""/>
+      <classroom id="E51BB1F66222BC43" name="3.A" short="3.A" capacity="*" partner_id=""/>
+      <classroom id="D98225B719D80B3C" name="3.B" short="3.B" capacity="*" partner_id=""/>
+      <classroom id="2EF628CC46EADBF0" name="3.C" short="3.C" capacity="*" partner_id=""/>
+      <classroom id="0F4F6DE9475ADFD7" name="4.A" short="4.A" capacity="*" partner_id=""/>
+      <classroom id="47D80DEDB52E18EE" name="4.B" short="4.B" capacity="*" partner_id=""/>
+      <classroom id="55B2E5DF70081681" name="4.C" short="4.C" capacity="*" partner_id=""/>
+      <classroom id="23FA2AC366518BF4" name="4.D" short="4.D" capacity="*" partner_id=""/>
+      <classroom id="1DF35F061FBB67F4" name="1.P" short="1.P" capacity="*" partner_id=""/>
+      <classroom id="0C0E60A09A1BCE18" name="2.P" short="2.P" capacity="*" partner_id=""/>
+      <classroom id="6C04B448B51C60E3" name="VYT 3" short="VYT3" capacity="*" partner_id=""/>
+      <classroom id="2B104EE0A0BE20ED" name="VYT 2" short="VYT2" capacity="*" partner_id=""/>
+      <classroom id="78D5C989394AD1C9" name="VYT 1" short="VYT1" capacity="*" partner_id=""/>
+   </classrooms>
+   <grades options="canadd,export:silent" columns="grade,name,short">
+      <grade name="Grade 1" short="G 1" grade="1"/>
+      <grade name="Grade 2" short="G 2" grade="2"/>
+      <grade name="Grade 3" short="G 3" grade="3"/>
+      <grade name="Grade 4" short="G 4" grade="4"/>
+      <grade name="Grade 5" short="G 5" grade="5"/>
+      <grade name="Grade 6" short="G 6" grade="6"/>
+      <grade name="Grade 7" short="G 7" grade="7"/>
+      <grade name="Grade 8" short="G 8" grade="8"/>
+      <grade name="Grade 9" short="G 9" grade="9"/>
+      <grade name="Grade 10" short="G 10" grade="10"/>
+      <grade name="Grade 11" short="G 11" grade="11"/>
+      <grade name="Grade 12" short="G 12" grade="12"/>
+      <grade name="Grade 13" short="G 13" grade="13"/>
+      <grade name="Grade 14" short="G 14" grade="14"/>
+      <grade name="Grade 15" short="G 15" grade="15"/>
+      <grade name="Grade 16" short="G 16" grade="16"/>
+      <grade name="Grade 17" short="G 17" grade="17"/>
+      <grade name="Grade 18" short="G 18" grade="18"/>
+      <grade name="Grade 19" short="G 19" grade="19"/>
+      <grade name="Grade 20" short="G 20" grade="20"/>
+   </grades>
+   <classes options="canadd,export:silent" columns="id,name,short,classroomids,teacherid,grade,partner_id">
+      <class id="9D7FF7162D3AA863" name="1A" short="1A" teacherid="4BEE072108E2EF5A" classroomids="E86501D7AF5D8A86" grade="" partner_id=""/>
+      <class id="5A14F5188DF613B8" name="1B" short="1B" teacherid="FC57148302A97A84" classroomids="8B94460819CBF7E8" grade="" partner_id=""/>
+      <class id="74A090B424489A0D" name="1C" short="1C" teacherid="" classroomids="533DFB531A0726FF" grade="" partner_id=""/>
+      <class id="78D6B9D9F77CD884" name="1D" short="1D" teacherid="A717D1606AFB29D1" classroomids="6760456B12160D66" grade="" partner_id=""/>
+      <class id="CCB193421BB0EE91" name="1E" short="1E" teacherid="49E227255D1E6BE6" classroomids="F7208E1FAE268614" grade="" partner_id=""/>
+      <class id="AD9B9691D6580D52" name="2A" short="2A" teacherid="59C9C36091617E68" classroomids="547682A914F5499E" grade="" partner_id=""/>
+      <class id="B2F0080C3E4354A4" name="2B" short="2B" teacherid="A386A275B7B307F1" classroomids="667A1D1845250483" grade="" partner_id=""/>
+      <class id="555FAF02AE195E71" name="2C" short="2C" teacherid="C419C5E72BDC3BDC" classroomids="6E2C67C252607386" grade="" partner_id=""/>
+      <class id="5131B315463F8D9B" name="2D" short="2D" teacherid="" classroomids="10F89695195594A2" grade="" partner_id=""/>
+      <class id="0F9326057CCD62B2" name="2E" short="2E" teacherid="" classroomids="C697B1B709E23525" grade="" partner_id=""/>
+      <class id="32D5B161DB0E2B87" name="3A" short="3A" teacherid="" classroomids="E51BB1F66222BC43" grade="" partner_id=""/>
+      <class id="6526A0FF5CAFE843" name="3B" short="3B" teacherid="" classroomids="D98225B719D80B3C" grade="" partner_id=""/>
+      <class id="5F0B7A600CEFDAD8" name="3C" short="3C" teacherid="" classroomids="2EF628CC46EADBF0" grade="" partner_id=""/>
+      <class id="DBEBE4083FB2882F" name="4A" short="4A" teacherid="" classroomids="0F4F6DE9475ADFD7" grade="" partner_id=""/>
+      <class id="DED28BD21A6A0DD7" name="4B" short="4B" teacherid="" classroomids="47D80DEDB52E18EE" grade="" partner_id=""/>
+      <class id="2BED2E72B8B3F22C" name="4C" short="4C" teacherid="" classroomids="55B2E5DF70081681" grade="" partner_id=""/>
+      <class id="E44BD2317DD5FCF6" name="4D" short="4D" teacherid="" classroomids="23FA2AC366518BF4" grade="" partner_id=""/>
+      <class id="E6E69CFE36F9CF4B" name="1P" short="1P" teacherid="" classroomids="1DF35F061FBB67F4" grade="" partner_id=""/>
+      <class id="3CE9504E5E2B58CC" name="2P" short="2P" teacherid="" classroomids="0C0E60A09A1BCE18" grade="" partner_id=""/>
+   </classes>
+   <groups options="canadd,export:silent" columns="id,classid,name,entireclass,divisiontag,studentcount,studentids">
+      <group id="0BFF26E20678E492" name="Entire class" classid="9D7FF7162D3AA863" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="4893DB4C1791AA4B" name="Group 1" classid="9D7FF7162D3AA863" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="58CD791A69078BE0" name="Group 2" classid="9D7FF7162D3AA863" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="02E52C41A78AE9BB" name="Boys" classid="9D7FF7162D3AA863" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="9DCF6D37AFA0DCDE" name="Girls" classid="9D7FF7162D3AA863" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="3C6EF070EA88E52C" name="eti" classid="9D7FF7162D3AA863" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="568C6BA9A388346B" name="nab" classid="9D7FF7162D3AA863" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="93E8D6568C8F8E47" name="Entire class" classid="5A14F5188DF613B8" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="D254AA0D80326E67" name="Group 1" classid="5A14F5188DF613B8" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="B3EF45D7D2820852" name="Group 2" classid="5A14F5188DF613B8" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="5E0B7D282624DEE5" name="Boys" classid="5A14F5188DF613B8" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="DF9BD0BE6F4328C8" name="Girls" classid="5A14F5188DF613B8" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="47330B1E8C332B93" name="eti" classid="5A14F5188DF613B8" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="2744AA18B68596F5" name="nab" classid="5A14F5188DF613B8" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="236462BA51CDA0FE" name="Entire class" classid="74A090B424489A0D" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="3736ABCD6AF50578" name="Group 1" classid="74A090B424489A0D" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="FF77DE61134C6EDB" name="Group 2" classid="74A090B424489A0D" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="2F1D8E4659B6CA16" name="Boys" classid="74A090B424489A0D" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="60A47967BDCE5BAB" name="Girls" classid="74A090B424489A0D" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="690A5DEFCC4F00AD" name="eti" classid="74A090B424489A0D" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="491AF497CCA27AA1" name="nab" classid="74A090B424489A0D" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="5AEEA5041052CA66" name="Entire class" classid="78D6B9D9F77CD884" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="5343CCE58D83E165" name="Group 1" classid="78D6B9D9F77CD884" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="F2004CD2887A629D" name="Group 2" classid="78D6B9D9F77CD884" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="73DC892F7900588D" name="Boys" classid="78D6B9D9F77CD884" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="6146505F5118F174" name="Girls" classid="78D6B9D9F77CD884" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="B7B449A0BB92AC6C" name="eti" classid="78D6B9D9F77CD884" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="767A8AA37F6584F0" name="nab" classid="78D6B9D9F77CD884" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="2EAA295CA8296F03" name="Entire class" classid="CCB193421BB0EE91" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="C65289BB758E1276" name="Group 1" classid="CCB193421BB0EE91" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="0686C696B90F639E" name="Group 2" classid="CCB193421BB0EE91" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="A2660562370CE053" name="Boys" classid="CCB193421BB0EE91" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="42A7FC4B03EB7A1B" name="Girls" classid="CCB193421BB0EE91" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="D7FC98FAEA87FED0" name="eti" classid="CCB193421BB0EE91" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="941A7ADEF9E90812" name="nab" classid="CCB193421BB0EE91" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="47B0218C6FBA59B0" name="Entire class" classid="AD9B9691D6580D52" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="7755D171B624B4EB" name="Group 1" classid="AD9B9691D6580D52" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="A799B47EE5766685" name="Group 2" classid="AD9B9691D6580D52" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="C331B1975F9BFDF7" name="Boys" classid="AD9B9691D6580D52" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="2666CB13E0C061AF" name="Girls" classid="AD9B9691D6580D52" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="01215099EC922FDD" name="eti" classid="AD9B9691D6580D52" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="8469337E60D1DC52" name="nab" classid="AD9B9691D6580D52" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="315C1D355FA27613" name="nejz" classid="AD9B9691D6580D52" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="567287B5A96D25AC" name="nejp" classid="AD9B9691D6580D52" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="CA9CF6068B2F22B8" name="frj" classid="AD9B9691D6580D52" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="D157A243F800736E" name="ruj" classid="AD9B9691D6580D52" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="5D77BF6852BDE1AD" name="anj" classid="AD9B9691D6580D52" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="2D00EB7A33D6D28D" name="Entire class" classid="B2F0080C3E4354A4" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="89E5094B1E0DF169" name="Group 1" classid="B2F0080C3E4354A4" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="D7338485BB7E090E" name="Group 2" classid="B2F0080C3E4354A4" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="AF7E67285AD35009" name="Boys" classid="B2F0080C3E4354A4" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="5F7F8CAB9B6C9518" name="Girls" classid="B2F0080C3E4354A4" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="E5EABDACB6F4DD79" name="eti" classid="B2F0080C3E4354A4" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="03093A132D017EEB" name="nab" classid="B2F0080C3E4354A4" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="8614379AEFB780E8" name="nejz" classid="B2F0080C3E4354A4" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="FBC12808F73A17C1" name="nejp" classid="B2F0080C3E4354A4" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="4706C37822B673C6" name="frj" classid="B2F0080C3E4354A4" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="A5BFDA5FF7FF751D" name="ruj" classid="B2F0080C3E4354A4" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="1458AB3FD1F02E31" name="anj" classid="B2F0080C3E4354A4" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="0CD9206A14A142A3" name="Entire class" classid="555FAF02AE195E71" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="A48180C8E205E616" name="Group 1" classid="555FAF02AE195E71" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="38A6BB50E01CBBAB" name="Group 2" classid="555FAF02AE195E71" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="D9CD04EE6826FE8C" name="Boys" classid="555FAF02AE195E71" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="141729827B0C5E9B" name="Girls" classid="555FAF02AE195E71" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="AD801EB826D95116" name="eti" classid="555FAF02AE195E71" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="8F5D1E84772B3C11" name="nab" classid="555FAF02AE195E71" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="EFE3717DC3F2557E" name="nejz" classid="555FAF02AE195E71" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="0C15A1BE26DF434E" name="nejp" classid="555FAF02AE195E71" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="FB7D6175FFD585E9" name="frj" classid="555FAF02AE195E71" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="8DD98741DA8743E6" name="anj" classid="555FAF02AE195E71" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="047C2FE6BC3F62E4" name="Entire class" classid="5131B315463F8D9B" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="A05B6EB23A3CDF98" name="Group 1" classid="5131B315463F8D9B" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="3F13EE9F351360D0" name="Group 2" classid="5131B315463F8D9B" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="642A591F7EDE106A" name="Boys" classid="5131B315463F8D9B" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="5848A2944B764E26" name="Girls" classid="5131B315463F8D9B" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="D7475FA33A733458" name="eti" classid="5131B315463F8D9B" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="2D979F4997665060" name="nab" classid="5131B315463F8D9B" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="D59E608F191C0563" name="nejz" classid="5131B315463F8D9B" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="054010745F66609F" name="nejp" classid="5131B315463F8D9B" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="CD84BEDEF2DE514B" name="ruj" classid="5131B315463F8D9B" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="B21023367E45C31D" name="anj" classid="5131B315463F8D9B" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="B0F276ABD01B063C" name="Entire class" classid="0F9326057CCD62B2" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="9038022E0FD87CD0" name="Group 1" classid="0F9326057CCD62B2" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="BC62081372359177" name="Group 2" classid="0F9326057CCD62B2" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="B4B72FF4EF66A875" name="Boys" classid="0F9326057CCD62B2" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="4C60147CD1CAC4A0" name="Girls" classid="0F9326057CCD62B2" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="04F1CA59E4CB008A" name="eti" classid="0F9326057CCD62B2" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="BA15121DBF1DE10F" name="nab" classid="0F9326057CCD62B2" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="D86B52960E5ED0BC" name="Entire class" classid="32D5B161DB0E2B87" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="65806D8FDF03C88C" name="Group 1" classid="32D5B161DB0E2B87" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="04386953C4DAD10B" name="Group 2" classid="32D5B161DB0E2B87" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="294AD3D40E8580A5" name="Boys" classid="32D5B161DB0E2B87" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="A2776E41FA355E13" name="Girls" classid="32D5B161DB0E2B87" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="1D4A2B9A404244C7" name="das1" classid="32D5B161DB0E2B87" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="06D92FAA103AD6E1" name="cvm4" classid="32D5B161DB0E2B87" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="6302ADC1790CD58C" name="das2" classid="32D5B161DB0E2B87" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="2572A1E415C55C4C" name="cvm6" classid="32D5B161DB0E2B87" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="A04E19722AE006B3" name="fif" classid="32D5B161DB0E2B87" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="ADBE25E0E0B46F9E" name="knj" classid="32D5B161DB0E2B87" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="A1DC6F55AD4CAD5A" name="kaj" classid="32D5B161DB0E2B87" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="56AA69DFC1488AF5" name="Entire class" classid="6526A0FF5CAFE843" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="1687B5461FBA6B02" name="Group 1" classid="6526A0FF5CAFE843" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="78D00D32E419A93C" name="Group 2" classid="6526A0FF5CAFE843" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="7BB982CB88095D4C" name="Boys" classid="6526A0FF5CAFE843" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="4542419C7A461F62" name="Girls" classid="6526A0FF5CAFE843" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="A87713E5156296F0" name="mar" classid="6526A0FF5CAFE843" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="48BD0ACDE26130B8" name="cvm5" classid="6526A0FF5CAFE843" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="C0CF752570D9DB2C" name="das2" classid="6526A0FF5CAFE843" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="B8C081BA45521FB6" name="cvm6" classid="6526A0FF5CAFE843" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="B115A99BC28336B4" name="fif" classid="6526A0FF5CAFE843" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="523FF3394AAD7996" name="knj" classid="6526A0FF5CAFE843" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="0E6FDEB46751B097" name="kaj" classid="6526A0FF5CAFE843" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="0404829F3DF8F7E6" name="Entire class" classid="5F0B7A600CEFDAD8" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="AE1CB9EF917BCE79" name="Group 1" classid="5F0B7A600CEFDAD8" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="C961683169C1BA00" name="Group 2" classid="5F0B7A600CEFDAD8" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="623B2E9788F37E36" name="Boys" classid="5F0B7A600CEFDAD8" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="8904A43CE8C017A9" name="Girls" classid="5F0B7A600CEFDAD8" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="AF96AC7B045B6C30" name="fif" classid="5F0B7A600CEFDAD8" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="FEBE132AB93B0C1F" name="das2" classid="5F0B7A600CEFDAD8" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="9FE0E0F15624C7B9" name="knj" classid="5F0B7A600CEFDAD8" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="C2243D60E9B01254" name="Entire class" classid="DBEBE4083FB2882F" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="D5F2867402B776CD" name="Group 1" classid="DBEBE4083FB2882F" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="94B9CFC8F08940C1" name="Group 2" classid="DBEBE4083FB2882F" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="2C623027BDEDE433" name="Boys" classid="DBEBE4083FB2882F" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="1D04CF9CA678DB5A" name="Girls" classid="DBEBE4083FB2882F" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="F7E881E0F1C22970" name="kaj" classid="DBEBE4083FB2882F" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="1966411C73DB5626" name="knj" classid="DBEBE4083FB2882F" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="167DF41AF72CAEDC" name="cvm2" classid="DBEBE4083FB2882F" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="E40ADD187D3784FC" name="fif" classid="DBEBE4083FB2882F" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="AD939BE96F744712" name="man2" classid="DBEBE4083FB2882F" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="39AF34E4B5123C98" name="mar" classid="DBEBE4083FB2882F" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="471F41536AE6A583" name="ban" classid="DBEBE4083FB2882F" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="B4A9B42488BCF785" name="Entire class" classid="DED28BD21A6A0DD7" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="620747E30211A511" name="Group 1" classid="DED28BD21A6A0DD7" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="88D0395F4CDEC5CB" name="Group 2" classid="DED28BD21A6A0DD7" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="C1F056AC62CE392E" name="Boys" classid="DED28BD21A6A0DD7" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="B2937A4A6058A90D" name="Girls" classid="DED28BD21A6A0DD7" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="5844A71EBA7CC203" name="man1" classid="DED28BD21A6A0DD7" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="EDFBDCCB9FDB28E1" name="cvm1" classid="DED28BD21A6A0DD7" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="85A03D2A6D1FCC53" name="cvm2" classid="DED28BD21A6A0DD7" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="7646DC9F55CAC37B" name="fif" classid="DED28BD21A6A0DD7" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="A5E88C849C151EB6" name="man2" classid="DED28BD21A6A0DD7" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="1481E18D8B055081" name="mar" classid="DED28BD21A6A0DD7" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="A38CF4EBEF031DFC" name="cvm3" classid="DED28BD21A6A0DD7" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="4A3BDAA92DBD4C80" name="Entire class" classid="2BED2E72B8B3F22C" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="F45411F981402313" name="Group 1" classid="2BED2E72B8B3F22C" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="D021F37BDD105312" name="Group 2" classid="2BED2E72B8B3F22C" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="6B043471E4E64634" name="Boys" classid="2BED2E72B8B3F22C" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="7873388E70BBBDB0" name="Girls" classid="2BED2E72B8B3F22C" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="2FC28FCF632B3C08" name="kaj" classid="2BED2E72B8B3F22C" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="23E55D6D44E2F27C" name="knj" classid="2BED2E72B8B3F22C" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="9FC98292B13CB24D" name="cvm3" classid="2BED2E72B8B3F22C" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="427ACFA74A4D77E8" name="ban" classid="2BED2E72B8B3F22C" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="E84CC2736CDB7BC8" name="man2" classid="2BED2E72B8B3F22C" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="5184AE1744F1B7EE" name="mar" classid="2BED2E72B8B3F22C" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="5B51E4BF21D02905" name="Entire class" classid="E44BD2317DD5FCF6" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="23E9E2005727C59C" name="Group 1" classid="E44BD2317DD5FCF6" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="842C641A78A4E6C8" name="Group 2" classid="E44BD2317DD5FCF6" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="0A9127352A65B7D3" name="Boys" classid="E44BD2317DD5FCF6" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="8340BC6277C6C735" name="Girls" classid="E44BD2317DD5FCF6" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="E9290E7612365B61" name="cvm" classid="E44BD2317DD5FCF6" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="41CEE28D96BB1376" name="cvm" classid="E44BD2317DD5FCF6" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="35F1B02B7872C9EB" name="knj" classid="E44BD2317DD5FCF6" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="B5CE1E4F6E075567" name="ban" classid="E44BD2317DD5FCF6" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="B9F5F0DC1ECA8BE2" name="mar" classid="E44BD2317DD5FCF6" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="CFE9889E410F0134" name="Entire class" classid="E6E69CFE36F9CF4B" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="5CFEA39811B3F904" name="Group 1" classid="E6E69CFE36F9CF4B" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="5C6BEB07BC96EDC8" name="Group 2" classid="E6E69CFE36F9CF4B" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="E54A2794DCA30C56" name="Boys" classid="E6E69CFE36F9CF4B" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="B2D7109262ADE276" name="Girls" classid="E6E69CFE36F9CF4B" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="86EF98F16689C8E7" name="Entire class" classid="3CE9504E5E2B58CC" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="ABFD7F489B14FFC8" name="Group 1" classid="3CE9504E5E2B58CC" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="BA48F8D245FFBA34" name="Group 2" classid="3CE9504E5E2B58CC" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="BD366E6AEA0F6E46" name="Boys" classid="3CE9504E5E2B58CC" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="BEA4E015642DD986" name="Girls" classid="3CE9504E5E2B58CC" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+   </groups>
+   <students options="canadd,export:silent" columns="id,classid,name,number,email,mobile,partner_id,firstname,lastname"/>
+   <studentsubjects options="canadd,export:silent" columns="studentid,subjectid,seminargroup,importance,alternatefor"/>
+   <lessons options="canadd,export:silent" columns="id,subjectid,classids,groupids,teacherids,classroomids,periodspercard,periodsperweek,daysdefid,weeksdefid,termsdefid,seminargroup,capacity,partner_id">
+      <lesson id="98E7C4ED78B2EA30" classids="5F0B7A600CEFDAD8" subjectid="0C74EFA46F7E2F6A" periodspercard="1" periodsperweek="4.0" teacherids="FC57148302A97A84" classroomids="2EF628CC46EADBF0" groupids="0404829F3DF8F7E6" capacity="*" seminargroup="" termsdefid="3E0DF7616745127F" weeksdefid="DE5486EEC0B1479C" daysdefid="CA188424552D8F47" partner_id=""/>
+      <lesson id="D548546BD5B8EA1E" classids="DBEBE4083FB2882F" subjectid="0C74EFA46F7E2F6A" periodspercard="1" periodsperweek="3.0" teacherids="FC57148302A97A84" classroomids="035EA3BE1B38DB6C,C3582C3FAAD280FF,09BAB2AF1E189233,70CD25E566EB02C4,D6C752DF154F45BB,D8667375A8150108,A63831DF40EF45F6,463D65596B0A5193,AE293F601E7B5568,A8B3BC3F6EAFBA38,8EDE3FCD7ABEA0C3,E86501D7AF5D8A86,8B94460819CBF7E8,533DFB531A0726FF,6760456B12160D66,F7208E1FAE268614,547682A914F5499E,667A1D1845250483,6E2C67C252607386,10F89695195594A2,C697B1B709E23525,E51BB1F66222BC43,D98225B719D80B3C,2EF628CC46EADBF0,0F4F6DE9475ADFD7,47D80DEDB52E18EE,55B2E5DF70081681,23FA2AC366518BF4,1DF35F061FBB67F4,0C0E60A09A1BCE18,6C04B448B51C60E3,2B104EE0A0BE20ED,78D5C989394AD1C9" groupids="D5F2867402B776CD" capacity="*" seminargroup="" termsdefid="3E0DF7616745127F" weeksdefid="DE5486EEC0B1479C" daysdefid="CA188424552D8F47" partner_id=""/>
+      <lesson id="33ACF82326C6D171" classids="2BED2E72B8B3F22C" subjectid="0C74EFA46F7E2F6A" periodspercard="1" periodsperweek="3.0" teacherids="FC57148302A97A84" classroomids="035EA3BE1B38DB6C,C3582C3FAAD280FF,09BAB2AF1E189233,70CD25E566EB02C4,D6C752DF154F45BB,D8667375A8150108,A63831DF40EF45F6,463D65596B0A5193,AE293F601E7B5568,A8B3BC3F6EAFBA38,8EDE3FCD7ABEA0C3,E86501D7AF5D8A86,8B94460819CBF7E8,533DFB531A0726FF,6760456B12160D66,F7208E1FAE268614,547682A914F5499E,667A1D1845250483,6E2C67C252607386,10F89695195594A2,C697B1B709E23525,E51BB1F66222BC43,D98225B719D80B3C,2EF628CC46EADBF0,0F4F6DE9475ADFD7,47D80DEDB52E18EE,55B2E5DF70081681,23FA2AC366518BF4,1DF35F061FBB67F4,0C0E60A09A1BCE18,6C04B448B51C60E3,2B104EE0A0BE20ED,78D5C989394AD1C9" groupids="F45411F981402313" capacity="*" seminargroup="" termsdefid="3E0DF7616745127F" weeksdefid="DE5486EEC0B1479C" daysdefid="CA188424552D8F47" partner_id=""/>
+      <lesson id="982EC52CD72FBF8F" classids="3CE9504E5E2B58CC" subjectid="0C74EFA46F7E2F6A" periodspercard="1" periodsperweek="5.0" teacherids="FC57148302A97A84" classroomids="035EA3BE1B38DB6C,C3582C3FAAD280FF,09BAB2AF1E189233,70CD25E566EB02C4,D6C752DF154F45BB,D8667375A8150108,A63831DF40EF45F6,463D65596B0A5193,AE293F601E7B5568,A8B3BC3F6EAFBA38,8EDE3FCD7ABEA0C3,E86501D7AF5D8A86,8B94460819CBF7E8,533DFB531A0726FF,6760456B12160D66,F7208E1FAE268614,547682A914F5499E,667A1D1845250483,6E2C67C252607386,10F89695195594A2,C697B1B709E23525,E51BB1F66222BC43,D98225B719D80B3C,2EF628CC46EADBF0,0F4F6DE9475ADFD7,47D80DEDB52E18EE,55B2E5DF70081681,23FA2AC366518BF4,1DF35F061FBB67F4,0C0E60A09A1BCE18,6C04B448B51C60E3,2B104EE0A0BE20ED,78D5C989394AD1C9" groupids="BA48F8D245FFBA34" capacity="*" seminargroup="" termsdefid="3E0DF7616745127F" weeksdefid="DE5486EEC0B1479C" daysdefid="CA188424552D8F47" partner_id=""/>
+      <lesson id="04668AB0818B5C12" classids="2BED2E72B8B3F22C" subjectid="86339FAA79575A1C" periodspercard="1" periodsperweek="2.0" teacherids="FC57148302A97A84" classroomids="55B2E5DF70081681" groupids="4A3BDAA92DBD4C80" capacity="*" seminargroup="" termsdefid="3E0DF7616745127F" weeksdefid="DE5486EEC0B1479C" daysdefid="CA188424552D8F47" partner_id=""/>
+      <lesson id="6E02B9FD0A532DAF" classids="DBEBE4083FB2882F,DED28BD21A6A0DD7,2BED2E72B8B3F22C,E44BD2317DD5FCF6" subjectid="130D906A965DEA56" periodspercard="2" periodsperweek="2.0" teacherids="FC57148302A97A84" classroomids="035EA3BE1B38DB6C,C3582C3FAAD280FF,09BAB2AF1E189233,70CD25E566EB02C4,D6C752DF154F45BB,D8667375A8150108,A63831DF40EF45F6,463D65596B0A5193,AE293F601E7B5568,A8B3BC3F6EAFBA38,8EDE3FCD7ABEA0C3,E86501D7AF5D8A86,8B94460819CBF7E8,533DFB531A0726FF,6760456B12160D66,F7208E1FAE268614,547682A914F5499E,667A1D1845250483,6E2C67C252607386,10F89695195594A2,C697B1B709E23525,E51BB1F66222BC43,D98225B719D80B3C,2EF628CC46EADBF0,0F4F6DE9475ADFD7,47D80DEDB52E18EE,55B2E5DF70081681,23FA2AC366518BF4,1DF35F061FBB67F4,0C0E60A09A1BCE18,6C04B448B51C60E3,2B104EE0A0BE20ED,78D5C989394AD1C9" groupids="39AF34E4B5123C98,1481E18D8B055081,5184AE1744F1B7EE,B9F5F0DC1ECA8BE2" capacity="*" seminargroup="" termsdefid="3E0DF7616745127F" weeksdefid="DE5486EEC0B1479C" daysdefid="CA188424552D8F47" partner_id=""/>
+      <lesson id="C3251A9876790E16" classids="9D7FF7162D3AA863" subjectid="34042D3F7964C629" periodspercard="1" periodsperweek="3.0" teacherids="6DBF7C17C5E6B96D" classroomids="E86501D7AF5D8A86" groupids="0BFF26E20678E492" capacity="*" seminargroup="" termsdefid="3E0DF7616745127F" weeksdefid="DE5486EEC0B1479C" daysdefid="CA188424552D8F47" partner_id=""/>
+      <lesson id="9982D45725E10CE9" classids="5131B315463F8D9B" subjectid="34042D3F7964C629" periodspercard="1" periodsperweek="2.0" teacherids="6DBF7C17C5E6B96D" classroomids="10F89695195594A2" groupids="047C2FE6BC3F62E4" capacity="*" seminargroup="" termsdefid="3E0DF7616745127F" weeksdefid="DE5486EEC0B1479C" daysdefid="CA188424552D8F47" partner_id=""/>
+      <lesson id="850837A2382E35E6" classids="5131B315463F8D9B" subjectid="34042D3F7964C629" periodspercard="1" periodsperweek="1.0" teacherids="6DBF7C17C5E6B96D" classroomids="035EA3BE1B38DB6C,C3582C3FAAD280FF,09BAB2AF1E189233,70CD25E566EB02C4,D6C752DF154F45BB,D8667375A8150108,A63831DF40EF45F6,463D65596B0A5193,AE293F601E7B5568,A8B3BC3F6EAFBA38,8EDE3FCD7ABEA0C3,E86501D7AF5D8A86,8B94460819CBF7E8,533DFB531A0726FF,6760456B12160D66,F7208E1FAE268614,547682A914F5499E,667A1D1845250483,6E2C67C252607386,10F89695195594A2,C697B1B709E23525,E51BB1F66222BC43,D98225B719D80B3C,2EF628CC46EADBF0,0F4F6DE9475ADFD7,47D80DEDB52E18EE,55B2E5DF70081681,23FA2AC366518BF4,1DF35F061FBB67F4,0C0E60A09A1BCE18,6C04B448B51C60E3,2B104EE0A0BE20ED,78D5C989394AD1C9" groupids="A05B6EB23A3CDF98" capacity="*" seminargroup="" termsdefid="3E0DF7616745127F" weeksdefid="DE5486EEC0B1479C" daysdefid="CA188424552D8F47" partner_id=""/>
+      <lesson id="D6A9118393C52E17" classids="5131B315463F8D9B" subjectid="34042D3F7964C629" periodspercard="1" periodsperweek="1.0" teacherids="6DBF7C17C5E6B96D" classroomids="035EA3BE1B38DB6C,C3582C3FAAD280FF,09BAB2AF1E189233,70CD25E566EB02C4,D6C752DF154F45BB,D8667375A8150108,A63831DF40EF45F6,463D65596B0A5193,AE293F601E7B5568,A8B3BC3F6EAFBA38,8EDE3FCD7ABEA0C3,E86501D7AF5D8A86,8B94460819CBF7E8,533DFB531A0726FF,6760456B12160D66,F7208E1FAE268614,547682A914F5499E,667A1D1845250483,6E2C67C252607386,10F89695195594A2,C697B1B709E23525,E51BB1F66222BC43,D98225B719D80B3C,2EF628CC46EADBF0,0F4F6DE9475ADFD7,47D80DEDB52E18EE,55B2E5DF70081681,23FA2AC366518BF4,1DF35F061FBB67F4,0C0E60A09A1BCE18,6C04B448B51C60E3,2B104EE0A0BE20ED,78D5C989394AD1C9" groupids="3F13EE9F351360D0" capacity="*" seminargroup="" termsdefid="3E0DF7616745127F" weeksdefid="DE5486EEC0B1479C" daysdefid="CA188424552D8F47" partner_id=""/>
+   </lessons>
+   <cards options="canadd,export:silent" columns="lessonid,period,days,weeks,terms,classroomids">
+      <card lessonid="98E7C4ED78B2EA30" classroomids="2EF628CC46EADBF0" period="7" weeks="1" terms="1" days="00100"/>
+      <card lessonid="98E7C4ED78B2EA30" classroomids="2EF628CC46EADBF0" period="7" weeks="1" terms="1" days="01000"/>
+      <card lessonid="98E7C4ED78B2EA30" classroomids="2EF628CC46EADBF0" period="6" weeks="1" terms="1" days="00001"/>
+      <card lessonid="98E7C4ED78B2EA30" classroomids="2EF628CC46EADBF0" period="4" weeks="1" terms="1" days="00010"/>
+      <card lessonid="D548546BD5B8EA1E" classroomids="D6C752DF154F45BB" period="6" weeks="1" terms="1" days="01000"/>
+      <card lessonid="D548546BD5B8EA1E" classroomids="0F4F6DE9475ADFD7" period="3" weeks="1" terms="1" days="00001"/>
+      <card lessonid="D548546BD5B8EA1E" classroomids="0F4F6DE9475ADFD7" period="3" weeks="1" terms="1" days="00010"/>
+      <card lessonid="33ACF82326C6D171" classroomids="55B2E5DF70081681" period="3" weeks="1" terms="1" days="10000"/>
+      <card lessonid="33ACF82326C6D171" classroomids="A8B3BC3F6EAFBA38" period="5" weeks="1" terms="1" days="01000"/>
+      <card lessonid="33ACF82326C6D171" classroomids="8EDE3FCD7ABEA0C3" period="5" weeks="1" terms="1" days="00010"/>
+   </cards>
+</timetable>
